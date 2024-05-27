@@ -37,15 +37,18 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
-        I did MS in Computer Science from Indiana Bloomington University, where
-        I also served as an associate instructor in software engineering.
-        Moreover, my one-year stint as a Software Engineer at Wipro has equipped
-        me with a solid foundation in software development. Additionally, my
-        tenure as a research assistant under Professor Seetharaman, including
-        contributions to various domains and 14 international research paper
-        publications, has honed my skills and expertise.
+        Holding an MS in Computer Science from Indiana University Bloomington
+        and experience as an associate instructor in software engineering, I
+        offer a strong academic foundation. My professional tenure as a Software
+        Engineer at Wipro provided robust software development expertise.
+        Notably, during my research assistantship under Professor Seetharaman, I
+        contributed to multiple domains, publishing 14 international research
+        papers. As a certified AWS Solutions Architect, I bring cloud computing
+        proficiency and a commitment to excellence. This combination of academic
+        rigor, industry experience, and research prowess equips me to deliver
+        exceptional results.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
