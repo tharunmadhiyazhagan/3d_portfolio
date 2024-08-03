@@ -9,6 +9,8 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import python from "./tech/python.png";
+import kubernetes from "./tech/kubernetes.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,12 +23,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import iub from "./company/iub.png";
+import wipro from "./company/wipro.png";
+import ceg from "./company/ceg.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import infratech from "./company/infratech.png";
 import carrent from "./carrent.png";
+import flowersML from "./flowersML.png";
+import banking from "./banking.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -40,7 +47,9 @@ export {
   menu,
   close,
   css,
+  python,
   docker,
+  kubernetes,
   figma,
   git,
   html,
@@ -53,10 +62,16 @@ export {
   typescript,
   threejs,
   meta,
+  infratech,
+  iub,
+  wipro,
+  ceg,
   shopify,
   starbucks,
   tesla,
   carrent,
+  flowersML,
+  banking,
   jobit,
   tripguide,
 };

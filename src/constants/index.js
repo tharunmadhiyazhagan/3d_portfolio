@@ -14,12 +14,20 @@ import {
   mongodb,
   git,
   figma,
+  python,
   docker,
+  kubernetes,
+  infratech,
+  iub,
+  wipro,
+  ceg,
   meta,
   starbucks,
   tesla,
   shopify,
   carrent,
+  flowersML,
+  banking,
   jobit,
   tripguide,
   threejs,
@@ -50,16 +58,20 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Analyst",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud Solution Architect",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "python",
+    icon: python,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -72,10 +84,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -112,62 +124,92 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "ITS Engineer",
+    company_name: "Infra Tech Engineering",
+    icon: infratech,
+    iconBg: "#ffffff",
+    date: "Jun 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integrated GPS equipment with satelite technology for precise site assessments, utilizing MicroStation and AutoCAD for area and volume calculations, ensuring elevation, coordinates, and benchmark verifications.",
+      "Optimized traffic management systems by inspecting and enhancing road sensor data collection software processes, applying machine learning algorithms to improve traffic light control efficiency and reduce congestion.",
+      "Designed robust database management systems for traffic data, integrating AWS cloud solutions for scalable and secure infrastructure; ensured efficient storage, retrieval, and data integrity optimizing system performance.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Associate Instructor",
+    company_name: "Indiana University Bloomington",
+    icon: iub,
+    iconBg: "#990000",
+    date: "Aug 2023 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Associate Instructor for the course CSCI-P 565 (Software Engineering) under Prof. Hamidreza Bahramian.",
+      "Implemented agile practices and provided full-stack guidance to software engineering teams, resulting in a 20% increase in team productivity. Oversaw timely delivery of high-quality final products, meeting semester timelines.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Software Engineer",
+    company_name: "Wipro",
+    icon: wipro,
+    iconBg: "#ffffff",
+    date: "Jul 2021 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected responsive front-end for Delivery Management System, ensuring tailored user experiences (UX) for customers, delivery managers, and drivers. Boosting customer satisfaction by 20% with an integrated, omnichannel chatbot.",
+      "Secure logins (OAuth & Duo) empower users. Advanced search boosts manager team management by 20%, optimizing delivery logistics. Flexible item matching (any type) increases customer bookings by 15%, enhancing satisfaction.",
+      "Live map tracking empowers informed decisions: Customers follow deliveries with unique IDs, managers monitor driver locations, and drivers update positions in real time, fostering transparency and optimized logistics.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Research Assistantship",
+    company_name: "College of Engineering Guindy, Anna University",
+    icon: ceg,
+    iconBg: "#ffffff",
+    date: "Jul 2018 - Aug 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Published 14 research papers at international conferences under the guidance of Dr. Seetharaman, Sr. Asst. Prof.",
+      "Designed and developed software and hardware automation solutions for diverse applications, including Text-to-Speech, assistive tech for the visually impaired, robotics for plant maintenance, grass cutting, and anti-collision systems.",
+      "As a web developer, achieved over 95% accuracy in software-driven projects, applying strong problem solving skills in Machine Learning-based applications such as fake news detection and pneumonia prediction.",
     ],
   },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
+
+// export const publications = [
+//   {
+//     name: "Publication Title 1",
+//     url: "https://example.com/publication1",
+//     image: "/path/to/image1.jpg",
+//     publicationName: "Journal Name 1",
+//     year: 2021,
+//   },
+//   {
+//     name: "Publication Title 2",
+//     url: "https://example.com/publication2",
+//     image: "/path/to/image2.jpg",
+//     publicationName: "Journal Name 2",
+//     year: 2022,
+//   },
+//   // Add more publications as needed
+// ];
 
 const testimonials = [
   {
@@ -198,54 +240,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Trip Guide",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers personalized and curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -258,6 +258,48 @@ const projects = [
       },
     ],
     image: tripguide,
+    // source_code_link: "https://github.com/",
+  },
+  {
+    name: "Banking App",
+    description:
+      "A banking app with a comprehensive finance dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users seamlessly.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: banking,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Image Classification",
+    description:
+      "Curated a dataset of 3000+ images with preprocessing and augmentation. Fine-tuned VGG16 to 97.59% accuracy and developed a custom neural network achieving 96.38% accuracy.",
+    tags: [
+      {
+        name: "CNN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "transfer learning",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: flowersML,
     source_code_link: "https://github.com/",
   },
 ];
