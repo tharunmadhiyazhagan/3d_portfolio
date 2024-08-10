@@ -36,6 +36,12 @@ import flowersML from "./flowersML.png";
 import banking from "./banking.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import fakenews from "./research/fakenews.png";
+import yard from "./research/yard.png";
+import speech from "./research/speech.png";
+import plant from "./research/plant.png";
+import underwater from "./research/underwater.png";
+import Mimo from "./research/Mimo.png";
 
 export {
   logo,
@@ -65,6 +71,12 @@ export {
   infratech,
   iub,
   wipro,
+  fakenews,
+  yard,
+  speech,
+  plant,
+  underwater,
+  Mimo,
   ceg,
   shopify,
   starbucks,

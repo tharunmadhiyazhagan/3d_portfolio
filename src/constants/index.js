@@ -21,6 +21,12 @@ import {
   iub,
   wipro,
   ceg,
+  fakenews,
+  yard,
+  speech,
+  plant,
+  underwater,
+  Mimo,
   meta,
   starbucks,
   tesla,
@@ -193,50 +199,79 @@ const experiences = [
   // },
 ];
 
-// export const publications = [
-//   {
-//     name: "Publication Title 1",
-//     url: "https://example.com/publication1",
-//     image: "/path/to/image1.jpg",
-//     publicationName: "Journal Name 1",
-//     year: 2021,
-//   },
-//   {
-//     name: "Publication Title 2",
-//     url: "https://example.com/publication2",
-//     image: "/path/to/image2.jpg",
-//     publicationName: "Journal Name 2",
-//     year: 2022,
-//   },
-//   // Add more publications as needed
-// ];
+const publications = [
+  {
+    title: "Fake News Detection using Machine Learning",
+    year: "2021",
+    publication: "Materials Today: Proceedings",
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S2214785321073442",
+    image: fakenews,
+  },
+  {
+    title: "Efficient Algorithm for Yard Trimmer Design",
+    year: "2021",
+    publication: "Springer",
+    url: "https://link.springer.com/chapter/10.1007/978-981-16-7657-4_66",
+    image: yard,
+  },
+  {
+    title: "Design of Speech Device Software using OCR",
+    year: "2021",
+    publication: "IEEE",
+    url: "https://ieeexplore.ieee.org/abstract/document/9617343",
+    image: speech,
+  },
+  {
+    title: "A Smart Irrigation System using Plant Maintenance Bot",
+    year: "2022",
+    publication: "Springer",
+    url: "https://link.springer.com/chapter/10.1007/978-981-19-1012-8_61",
+    image: plant,
+  },
+  {
+    title: "Li-Fi technique in Underwater Communication",
+    year: "2022",
+    publication: "Materials Today: Proceedings",
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S2214785321074095",
+    image: underwater,
+  },
+  {
+    title: "Dual Band MIMO Antenna for 5G Applications",
+    year: "2021",
+    publication: "Springer",
+    url: "https://link.springer.com/chapter/10.1007/978-981-19-1111-8_60",
+    image: Mimo,
+  },
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // Add more publications as needed
 ];
+
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
@@ -304,4 +339,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, publications, projects };
