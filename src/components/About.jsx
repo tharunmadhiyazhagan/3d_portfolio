@@ -46,9 +46,10 @@ const About = () => {
         Notably, during my research assistantship under Professor Seetharaman, I
         contributed to multiple domains, publishing 14 international research
         papers. As a certified AWS Solutions Architect, I bring cloud computing
-        proficiency and a commitment to excellence. This combination of academic
-        rigor, industry experience, and research prowess equips me to deliver
-        exceptional results.
+        proficiency and a commitment to excellence. Currently, I work as an ITS
+        engineer at Infra Tech Engineering, further enhancing my expertise. This
+        combination of academic rigor, industry experience, and research prowess
+        equips me to deliver exceptional results.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

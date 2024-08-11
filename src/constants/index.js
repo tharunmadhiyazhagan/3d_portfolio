@@ -56,21 +56,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "ITS Engineer",
-    icon: mobile,
-  },
-  {
     title: "Full Stack Developer",
-    icon: backend,
+    icon: web,
   },
   {
     title: "Cloud Solution Architect",
     icon: creator,
   },
+  {
+    title: "Data Aspirant",
+    icon: mobile,
+  },
+  // {
+  //   title: "Full Stack Developer",
+  //   icon: backend,
+  // },
 ];
 
 const technologies = [
@@ -275,7 +275,7 @@ const publications = [
 
 const projects = [
   {
-    name: "Trip Guide",
+    name: "Tour Management",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers personalized and curated recommendations for popular destinations.",
     tags: [
@@ -284,7 +284,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
