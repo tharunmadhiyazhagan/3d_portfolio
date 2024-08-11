@@ -135,7 +135,7 @@ const PublicationCard = ({ index, title, year, publication, url, image }) => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      Read More
+      Dive into the publication
     </a>
   </motion.div>
 );

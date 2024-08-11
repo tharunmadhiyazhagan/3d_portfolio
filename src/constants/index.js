@@ -60,11 +60,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ITS Engineer",
     icon: mobile,
   },
   {
-    title: "Data Analyst",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
@@ -144,9 +144,9 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Jun 2024 - Present",
     points: [
-      "Integrated GPS equipment with satelite technology for precise site assessments, utilizing MicroStation and AutoCAD for area and volume calculations, ensuring elevation, coordinates, and benchmark verifications.",
-      "Optimized traffic management systems by inspecting and enhancing road sensor data collection software processes, applying machine learning algorithms to improve traffic light control efficiency and reduce congestion.",
-      "Designed robust database management systems for traffic data, integrating AWS cloud solutions for scalable and secure infrastructure; ensured efficient storage, retrieval, and data integrity optimizing system performance.",
+      "Optimized Traffic Management: Enhanced road sensor data collection and traffic light control using machine learning to reduce congestion.",
+      "Database Management: Designed scalable AWS-integrated databases for traffic data, ensuring efficient performance and security.",
+      "Precise Site Assessments: Utilized GPS and satellite technology with MicroStation and AutoCAD for accurate site evaluations.",
     ],
   },
   {
@@ -156,8 +156,8 @@ const experiences = [
     iconBg: "#990000",
     date: "Aug 2023 - May 2024",
     points: [
-      "Associate Instructor for the course CSCI-P 565 (Software Engineering) under Prof. Hamidreza Bahramian.",
-      "Implemented agile practices and provided full-stack guidance to software engineering teams, resulting in a 20% increase in team productivity. Oversaw timely delivery of high-quality final products, meeting semester timelines.",
+      "For CSCI-P 565 (Software Engineering): Boosted team productivity by 20% through agile practices and full-stack guidance, ensuring timely delivery of high-quality projects.",
+      "Managed website development for tour management, fitness tracking, and booking systems, ensuring successful implementation and performance throughout the course.",
     ],
   },
   {
@@ -167,9 +167,9 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Jul 2021 - Jun 2022",
     points: [
-      "Architected responsive front-end for Delivery Management System, ensuring tailored user experiences (UX) for customers, delivery managers, and drivers. Boosting customer satisfaction by 20% with an integrated, omnichannel chatbot.",
-      "Secure logins (OAuth & Duo) empower users. Advanced search boosts manager team management by 20%, optimizing delivery logistics. Flexible item matching (any type) increases customer bookings by 15%, enhancing satisfaction.",
-      "Live map tracking empowers informed decisions: Customers follow deliveries with unique IDs, managers monitor driver locations, and drivers update positions in real time, fostering transparency and optimized logistics.",
+      "Developed a responsive front-end for the Delivery Management System, raising customer satisfaction by 20% with chatbot integration.",
+      "Implemented secure logins, advanced search functionality, and flexible item matching, boosting team management efficiency by 20% and customer bookings by 15%.",
+      "Implemented real-time tracking for customers, managers, and drivers, optimizing transparency and logistics.",
     ],
   },
   {
@@ -179,9 +179,9 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Jul 2018 - Aug 2020",
     points: [
-      "Published 14 research papers at international conferences under the guidance of Dr. Seetharaman, Sr. Asst. Prof.",
-      "Designed and developed software and hardware automation solutions for diverse applications, including Text-to-Speech, assistive tech for the visually impaired, robotics for plant maintenance, grass cutting, and anti-collision systems.",
-      "As a web developer, achieved over 95% accuracy in software-driven projects, applying strong problem solving skills in Machine Learning-based applications such as fake news detection and pneumonia prediction.",
+      "Published 14 research papers at international conferences under Dr. Seetharaman.",
+      "Developed automation solutions for Text-to-Speech, assistive tech, robotics, and anti-collision systems.",
+      "Achieved over 95% accuracy in software projects, including Machine Learning applications for fake news detection and pneumonia prediction.",
     ],
   },
   // {
