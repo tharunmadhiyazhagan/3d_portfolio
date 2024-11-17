@@ -36,6 +36,7 @@ import flowersML from "./flowersML.png";
 import banking from "./banking.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tinkuproperty from "./tinkuproperty.png";
 import fakenews from "./research/fakenews.png";
 import yard from "./research/yard.png";
 import speech from "./research/speech.png";
@@ -86,4 +87,5 @@ export {
   banking,
   jobit,
   tripguide,
+  tinkuproperty,
 };

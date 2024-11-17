@@ -36,6 +36,7 @@ import {
   banking,
   jobit,
   tripguide,
+  tinkuproperty,
   threejs,
 } from "../assets";
 
@@ -295,17 +296,38 @@ const projects = [
     image: tripguide,
     // source_code_link: "https://github.com/",
   },
+  // {
+  //   name: "Banking App",
+  //   description:
+  //     "A banking app with a comprehensive finance dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users seamlessly.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: banking,
+  //   source_code_link: "https://github.com/",
+  // },
   {
-    name: "Banking App",
+    name: "Tinku Properties",
     description:
-      "A banking app with a comprehensive finance dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users seamlessly.",
+      "A comprehensive real estate application that allows users to search for, rent, and sell properties. The platform features secure account management, advanced property filters, and an interactive map view for seamless user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -313,8 +335,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: banking,
-    source_code_link: "https://github.com/",
+    image: tinkuproperty, // Replace with the appropriate variable or URL for the app's image
+    source_code_link: "https://iconic-estate.onrender.com", // Replace with the actual repository link
   },
   {
     name: "Image Classification",
@@ -335,7 +357,7 @@ const projects = [
       // },
     ],
     image: flowersML,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
 ];
 
