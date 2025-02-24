@@ -39,17 +39,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
-        Holding an MS in Computer Science from Indiana University Bloomington
-        and experience as an associate instructor in software engineering, I
-        offer a strong academic foundation. My professional tenure as a Software
-        Engineer at Wipro provided robust software development expertise.
-        Notably, during my research assistantship under Professor Seetharaman, I
-        contributed to multiple domains, publishing 14 international research
-        papers. As a certified AWS Solutions Architect, I bring cloud computing
-        proficiency and a commitment to excellence. Currently, I work as an ITS
-        engineer at Infra Tech Engineering, further enhancing my expertise. This
-        combination of academic rigor, industry experience, and research prowess
-        equips me to deliver exceptional results.
+        Holding an MS in Computer Science from Indiana University Bloomington, I
+        specialize in software engineering and cloud computing. As a Full Stack
+        Developer at Cohortz, I build scalable software solutions, leveraging
+        full-stack development, API integrations, and cloud infrastructure. My
+        roles at Wipro and Infra Tech Engineering have further honed my
+        problem-solving and analytical skills. During my undergraduate research
+        assistantship, I contributed to 14 internationally published research
+        papers across multiple domains. As a certified AWS Solutions Architect,
+        I bring expertise in cloud architecture and distributed systems,
+        enabling me to develop high-impact, scalable, and innovative solutions.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

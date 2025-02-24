@@ -38,6 +38,7 @@ import {
   tripguide,
   tinkuproperty,
   threejs,
+  cohortz,
 } from "../assets";
 
 export const navLinks = [
@@ -139,11 +140,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "Cohortz",
+    icon: cohortz,
+    iconBg: "#ffffff",
+    date: "Nov 2024 - Present",
+    points: [
+      "Built a fully automated resume-generation system, dynamically creating unique, job-specific resumes for each application, leveraging user-provided inputs and custom logic to eliminate manual effort post-setup.",
+      "Developed the end-to-end notifications system, ensuring users are seamlessly informed about job applications and role updates with 100% accuracy while maintaining a fully automated backend process.",
+    ],
+  },
+  {
     title: "ITS Engineer",
     company_name: "Infra Tech Engineering",
     icon: infratech,
     iconBg: "#ffffff",
-    date: "Jun 2024 - Present",
+    date: "Jun 2024 - Nov 2024",
     points: [
       "Optimized Traffic Management: Enhanced road sensor data collection and traffic light control using machine learning to reduce congestion.",
       "Database Management: Designed scalable AWS-integrated databases for traffic data, ensuring efficient performance and security.",

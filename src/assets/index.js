@@ -43,6 +43,7 @@ import speech from "./research/speech.png";
 import plant from "./research/plant.png";
 import underwater from "./research/underwater.png";
 import Mimo from "./research/Mimo.png";
+import cohortz from "./company/cohortz.png";
 
 export {
   logo,
@@ -88,4 +89,5 @@ export {
   jobit,
   tripguide,
   tinkuproperty,
+  cohortz,
 };
