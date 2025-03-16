@@ -151,15 +151,14 @@ const experiences = [
     ],
   },
   {
-    title: "ITS Engineer",
+    title: "Software Engineer",
     company_name: "Infra Tech Engineering",
     icon: infratech,
     iconBg: "#ffffff",
     date: "Jun 2024 - Nov 2024",
     points: [
-      "Optimized Traffic Management: Enhanced road sensor data collection and traffic light control using machine learning to reduce congestion.",
-      "Database Management: Designed scalable AWS-integrated databases for traffic data, ensuring efficient performance and security.",
-      "Precise Site Assessments: Utilized GPS and satellite technology with MicroStation and AutoCAD for accurate site evaluations.",
+      "Developed a payroll estimation tool that processes employee timesheets, calculating salary breakdowns based on normal, overtime, and night shift hours, ensuring 100% accuracy in salary forecasting before submission.",
+      "Built an interactive dashboard allowing employees to enter work hours, view estimated earnings, track remaining PTO, and generate detailed salary breakdown PDFs, improving payroll transparency and reducing HR queries by 40%",
     ],
   },
   {
